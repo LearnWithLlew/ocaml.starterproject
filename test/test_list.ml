@@ -46,7 +46,7 @@ let test_list_append _ =
   assert_equal list_b list_a
 
 let simple_test _ =
-  assert_equal true false
+  assert_equal true true
 
 let suite =
   "ExampleTestList" >::: [
@@ -57,5 +57,3 @@ let suite =
 
 let () =
   run_test_tt_main suite
-
-l

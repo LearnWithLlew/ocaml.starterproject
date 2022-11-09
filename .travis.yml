@@ -1,0 +1,19 @@
+dist: bionic
+sudo: required
+
+install:
+  - curl -fsSLO https://raw.githubusercontent.com/ocaml/ocaml-ci-scripts/master/.travis-ocaml.sh
+  - bash -ex .travis-ocaml.sh
+  - eval $(opam env); sh setup-opam
+
+script:
+  - eval $(opam env); dune runtest
+
+env:
+  matrix:
+  - OCAML_VERSION=4.06
+  - OCAML_VERSION=4.11
+
+os:
+  - linux
+#  - mac

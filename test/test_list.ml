@@ -45,11 +45,17 @@ let test_list_append _ =
   let list_b = List.append empty_list [1;2;3] in
   assert_equal list_b list_a
 
+let simple_test _ =
+  assert_equal true false
+
 let suite =
   "ExampleTestList" >::: [
     "test_list_length" >:: test_list_length;
-    "test_list_append" >:: test_list_append
+    "test_list_append" >:: test_list_append;
+    "simple test" >:: simple_test;
   ]
 
 let () =
   run_test_tt_main suite
+
+l

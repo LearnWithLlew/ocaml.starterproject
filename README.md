@@ -1,7 +1,6 @@
-OUnit2 Quickstart with dune [![Build Status](https://travis-ci.org/mamewotoko/ounit2_quickstart.svg?branch=master)](https://travis-ci.org/mamewotoko/ounit2_quickstart)
+OUnit2 Quickstart with dune
+[![build and run test](https://github.com/LearnWithLlew/ocaml.starterproject/actions/workflows/applesauce.yml/badge.svg)](https://github.com/LearnWithLlew/ocaml.starterproject/actions/workflows/applesauce.yml)
 ===========================
-
-![html report](./doc/ounit2_html_result.png)
 
 Setup
 -----

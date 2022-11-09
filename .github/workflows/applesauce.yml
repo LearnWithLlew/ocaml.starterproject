@@ -1,4 +1,4 @@
-name: learning hour
+name: build and run test
 on: push
 
 jobs:
@@ -9,3 +9,9 @@ jobs:
 
       - name: Set up OCaml
         uses: ocaml/setup-ocaml@v1.1.11
+      
+      - name: Install oPam
+        run: eval $(opam env); sh setup-opam
+
+      - name: Run Test
+        run: eval $(opam env); dune runtest

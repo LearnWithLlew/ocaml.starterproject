@@ -1,5 +1,5 @@
 # todo
-1. [ ] Make an action
+1. [X] Make an action
 1. [ ] Run ocaml
 1. [ ] Make a badge
 1. [ ] Make a markdown

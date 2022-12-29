@@ -1,5 +1,5 @@
 OUnit2 Quickstart with dune
-[![build and run test](https://github.com/LearnWithLlew/ocaml.starterproject/actions/workflows/applesauce.yml/badge.svg)](https://github.com/LearnWithLlew/ocaml.starterproject/actions/workflows/applesauce.yml)
+[![build](../../actions/workflows/build.yml/badge.svg)](../../actions/workflows/build.yml)
 ===========================
 
 Setup

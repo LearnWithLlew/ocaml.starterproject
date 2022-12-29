@@ -1,28 +1,25 @@
-OUnit2 Quickstart with dune
+# OUnit2 Quickstart with dune
 [![build](../../actions/workflows/build.yml/badge.svg)](../../actions/workflows/build.yml)
-===========================
 
-Setup
------
+## Setup
 1. install opam2
 2. install odoc and ounit2
 
-    ```
-    sh setup-opam
-    ```
+```bash
+sh setup-opam
+```
 
-Build and run Test
-------------------
+## Build and run Test
 
 ### method1: console output
 
-```
+```bash
 dune runtest
 ```
 
 Example output
 
-```
+```bash
 > dune runtest test
 dune runtest test
    test_list alias test/runtest
